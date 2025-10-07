@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+:root{
+    --main-color: #c2a383;
+    --black: #0d0d0d;
+    --background: #13131a;
+    --text: #fff;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.164);
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: var(--black);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    background-color: var(--black);
+}
+section{
+    padding: 3rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.header section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.menubar a{
+    padding: 10px;
+    color: #fff;
+    font-size: 1.5em;
+}
+.menubar a:hover{
+    color: var(--main-color);
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5em;
+    transition: 0.2s linear;
+    font-size: 1.6em;
+}
+.icons a{
+    padding: 10px;
+}
+.icons img:hover{
+    width: 35px;
+    height: 35px;
+    border-bottom: 0.1rem solid var(--main-color);
+    padding-bottom: 0.5em;
+    transition: 0.2s linear;
+}
+.principal{
+    background: url("imagens-cafeteria/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.texto1 section{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+.texto1 h3{
+    color: #fff;
+    font-size: 3em;
+    margin-top: 14rem;
+}
+.texto1 p{
+    text-transform: none;
+    color: #ffffff;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+.texto1 a{
+    color: #fff;
+    font-size: 1em;
+    padding: 5px 15px 5px 15px;
+    margin: 5px;
+}
+.button{
+    background-color: var(--main-color);
+    margin-top: 1rem;
+    margin-left: 5px;
+}
+.button:hover{
+    transition: 1.2s;
+    font-size: 1.1em;
+}
+.title{
+    color: #fff;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+}
+.title span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.imagem-sobre{
+    display: flex;
+}
+.sobre .row{
+    display: flex;
+    align-items: center;
+    background-color: var(--background);
+    gap: 1.5em;
+}
+.sobre .row .conteudo-sobrenos{
+    padding: 2rem;
+}
+.conteudo-sobrenos h3{
+    color: #fff;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+.conteudo-sobrenos p{
+    color: #fff;
+    line-height: 1.6em;
+    text-transform: none;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.conteudo-sobrenos a{
+    color: #fff;
+    font-size: 1em;
+}
+.btnsobre{
+    background-color: var(--main-color);
+    padding: 5px 15px;
+    margin-left: 5px;
+}
+.btnsobre:hover{
+    transition: 1.2s;
+    font-size: 1.1em;
+}
+.menuopcoes h3{
+    color: #fff;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+.menuopcoes span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.opcoes img{
+ 
+}
+.opcoes h4{
+    color: #fff;
+    margin-bottom: 5px;
+}
+.opcoes p{
+    color: #fff;
+    margin-bottom: 5px;
+}
+.opcoes a{
+    color: #fff;
+}
+.opcoes span{
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+.adicionar{
+    background-color: var(--main-color);
+    padding: 2px 7px;
+    border-radius: 10px;
+    text-transform: none;
+}
+.adicionar:hover{
+    transition: 1.2s;
+    font-size: 1.1em;
+}
+.menu .menuopcoes{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu .opcoes{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
