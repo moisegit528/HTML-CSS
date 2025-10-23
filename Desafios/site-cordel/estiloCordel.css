@@ -9,7 +9,7 @@
 }
 body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: white;
     font-family: "Sriracha", cursive;
 }
 header{
@@ -33,9 +33,34 @@ header a{
     text-decoration: none;
 }
 a:hover{
+    font-size: 17px;
     text-decoration: underline;
 }
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+section.imagem{
+    background-image: url(imagens/background001.jpg);
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+section.imagem p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.400);
 
+}
+section.imagem2{
+    background-image: url(imagens/background002.jpg);
+    background-size: contain;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+section.imagem2 p{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.400);
+}
 
 
 
