@@ -50,31 +50,52 @@ section{
     font-family: var(--fonte3);
     font-size: 3.5vw;
 }
+section > p{
+    padding-bottom: 2em;
+}
 section.imagem{
     background-image: url(imagens/background001.jpg);
-    background-size: contain;
-    background-attachment: scroll;
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.500);
 }
 section.imagem p{
     display: inline-block;
     padding: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0.253);
-
+    text-shadow: 2px 2px 0px black;
 }
 section.imagem2{
     background-image: url(imagens/background002.jpg);
-    background-size: contain;
-    background-attachment: scroll;
+    background-size: cover;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.500);
 }
 section.imagem2 p{
+    display: inline-block;
+    padding: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0.253);
-    width: 400px;
 }
-
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5vw;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 1em;
+}
 
 
 
