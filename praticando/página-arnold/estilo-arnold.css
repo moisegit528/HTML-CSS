@@ -61,8 +61,21 @@ section p{
     padding: 20px;
     text-align: center;
 }
+section div.infancia{
+    width: 100%;
+    height: 50%;
+}
+section div.fisio{
+    width: 100%;
+    height: 50%;
+}
+section div.ator{
+    width: 100%;
+    height: 50%;
+}
 section div.governo{
     width: 100%;
+    height: 50%;
 }
 footer{
     background-color: #1B263B;
