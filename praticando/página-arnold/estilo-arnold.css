@@ -16,11 +16,22 @@
     --font-titulos: "Bebas Neue", sans-serif;
     --font-padrao: "Open Sans", sans-serif;
 }
-header div{
-    background-color: #1B263B;;
+header{
+    background-color: #1B263B;
+}
+header section{
     display: flex;
-    align-items: center;
-    padding: 20px;
+    padding: 10px;
+}
+header div.atual{
+    width: 100%;
+    height: 50%;
+}
+header p{
+    color: var(--cor-texto);
+    font-family: var(--font-padrao);
+    font-size: 2rem;
+    text-align: center;
 }
 header nav{
     background-color: #1B263B;
@@ -35,12 +46,6 @@ header nav a{
 header img{
     width: 20%;
 }
-header p{
-    color: var(--cor-texto);
-    font-family: var(--font-padrao);
-    font-size: 2rem;
-    text-align: center;
-}
 body{
     background-color: var(--cor-fundo);
 }
@@ -50,32 +55,39 @@ main p{
 }
 section{
     display: flex;
-    align-items: center;
     padding: 10px;
+}
+section p{
+    text-align:left;
 }
 section img{
     width: 50vh;
     margin: auto;
 }
-section p{
+section div.texto{
+    text-align: left;
+    width: 100%;
+    height: 100%;
     padding: 20px;
-    text-align: center;
 }
 section div.infancia{
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
 section div.fisio{
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
 section div.ator{
     width: 100%;
-    height: 50%;
+    height: 100%
 }
 section div.governo{
     width: 100%;
-    height: 50%;
+    height: 100%;
+}
+strong{
+    color: var(--cor-destaque);
 }
 footer{
     background-color: #1B263B;
