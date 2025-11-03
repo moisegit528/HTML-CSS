@@ -48,29 +48,29 @@ main p{
     color: var(--cor-texto);
     font-size: 2rem;
 }
-section.historia-infancia{
-    display: flex;
-    padding: 10px;
-    align-items: center;
-}
-section.historia-infancia p{
-    padding: 20px;
-    text-align: left;
-}
-section img.infancia{
-    height: 50vh;
-    width: 50vh;
-}
-section.historia-fisio{
+section{
     display: flex;
     align-items: center;
     padding: 10px;
 }
-section img.fisioculturismo{
+section img{
     width: 50vh;
-    height: 50vh;
+    margin: auto;
 }
-section.historia-fisio p{
+section p{
     padding: 20px;
-    align-items: left;
+    text-align: center;
+}
+section div.governo{
+    width: 100%;
+}
+footer{
+    background-color: #1B263B;
+}
+footer p{
+    color: var(--cor-texto);
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
 }
