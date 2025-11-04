@@ -44,7 +44,7 @@ header nav a{
     padding: 10px;
 }
 header img{
-    width: 20%;
+    width: 100%;
 }
 body{
     background-color: var(--cor-fundo);
@@ -53,49 +53,15 @@ main p{
     color: var(--cor-texto);
     font-size: 2rem;
 }
-section{
-    display: flex;
-    padding: 10px;
+section#sobre-infancia{
+    
+    background-size: 100% 100%;
 }
-section p{
-    text-align:left;
+section div.infancia img{
+    background-size: 100% 100%;
+    border: 2px solid black;
 }
-section img{
-    width: 50vh;
-    margin: auto;
-}
-section div.texto{
-    text-align: left;
-    width: 100%;
-    height: 100%;
+article#conteudo-infancia p{
     padding: 20px;
-}
-section div.infancia{
-    width: 100%;
-    height: 100%;
-}
-section div.fisio{
-    width: 100%;
-    height: 100%;
-}
-section div.ator{
-    width: 100%;
-    height: 100%
-}
-section div.governo{
-    width: 100%;
-    height: 100%;
-}
-strong{
-    color: var(--cor-destaque);
-}
-footer{
-    background-color: #1B263B;
-}
-footer p{
-    color: var(--cor-texto);
-    padding: 20px;
-    font-size: 1rem;
-    text-align: center;
-    text-transform: uppercase;
+    border: 2px solid black;
 }
