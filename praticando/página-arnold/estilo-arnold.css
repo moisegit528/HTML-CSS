@@ -54,11 +54,10 @@ main p{
     font-size: 2rem;
 }
 section#sobre-infancia{
-    
     background-size: 100% 100%;
 }
 section div.infancia img{
-    background-size: 100% 100%;
+    background-size: cover;
     border: 2px solid black;
 }
 article#conteudo-infancia p{
