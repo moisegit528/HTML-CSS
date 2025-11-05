@@ -19,32 +19,45 @@
 header{
     background-color: #1B263B;
 }
-header section{
+header section.cabeca{
     display: flex;
-    padding: 10px;
-}
-header div.atual{
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
-header p{
-    color: var(--cor-texto);
+header section div.atual img{
+    width: 100%;
+    height: 100%;
+}
+header section p{
     font-family: var(--font-padrao);
-    font-size: 2rem;
-    text-align: center;
+    color: var(--cor-texto);
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 20px;
+    width: 100%;
+    height: auto;
 }
 header nav{
-    background-color: #1B263B;
+    background-color: var(--cor-fundo);
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    text-align: center;
+    text-transform: uppercase;
     padding: 20px;
 }
 header nav a{
+    font-family: var(--font-titulos);
     color: var(--cor-links);
     text-decoration: none;
     font-size: 2rem;
     padding: 10px;
 }
+header nav a:hover{
+    font-size: 2.5rem;
+    color: var(--cor-destaque);
+}
 header img{
     width: 100%;
+    height: auto;
 }
 body{
     background-color: var(--cor-fundo);
@@ -59,35 +72,86 @@ strong{
 }
 section#sobre-infancia{
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
     height: 100%;
 }
 section div.infancia img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 section#sobre-infancia p{
     text-align: left;
-    margin-top: 50px;
     padding: 20px;
     width: 100%;
     height: 100%;    
 }
 section#fisioculturimo{
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
     height: 100%;
 }
 section div.fisio img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 section#fisioculturimo p{
     text-align: left;
-    margin-top: 50px;
     padding: 20px;
     width: 100%;
     height: 100%;
+}
+section#hollywood{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+}
+section div.holly img{
+    width: 100%;
+    height: auto;
+}
+section#hollywood p{
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+section#governo{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+}
+section div.governador img{
+    width: 100%;
+    height: auto;
+}
+section#governo p{
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+footer p{
+    background-color: #1B263B;
+    color: var(--cor-texto);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+}
+footer p a:hover{
+    text-decoration: underline;
 }
 
 
