@@ -10,9 +10,29 @@
     --fonte-texto: 'Open Sans', 'sans-serif';
     font-size: 1rem;
 }
+header{
+    background-color: #e07a5f;
+}
 header h1{
+    background-color: #005f73;
+    font-family: var(--font-titulo);
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header h2{
+    background-color: #e07a5f;
     font-family: var(--font-titulo);
     font-size: 2rem;
     text-align: center;
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header div.icones{
+    display: flex;
+    justify-content: space-between;
+}
+header div.icones img{
+    padding: 10px;
 }
