@@ -11,10 +11,10 @@
     font-size: 1rem;
 }
 header{
-    background-color: #e07a5f;
+    background: linear-gradient(to bottom, #005f73, #e07a5f);
 }
 header h1{
-    background-color: #005f73;
+    color: #F1FAEE;
     font-family: var(--font-titulo);
     font-size: 2.5rem;
     text-align: center;
@@ -22,7 +22,7 @@ header h1{
     padding-bottom: 20px;
 }
 header h2{
-    background-color: #e07a5f;
+    color: #F1FAEE;
     font-family: var(--font-titulo);
     font-size: 2rem;
     text-align: center;
@@ -35,4 +35,30 @@ header div.icones{
 }
 header div.icones img{
     padding: 10px;
+}
+
+section#Ubatuba{
+    background-image: url(Ubatuba/ubatuba.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+}
+section#Ubatuba h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: var(--font-titulo);
+    color: #FAF9F6;
+}
+section#Ubatuba h2{
+    font-family: var(--font-titulo);
+    padding-left: 15px;
+    color: #E9C46A;
+}
+section#Ubatuba p{
+    font-family: var(--fonte-texto);
+    font-size: 1rem;
+    padding-left: 15px;
 }
