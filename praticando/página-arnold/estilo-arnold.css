@@ -67,7 +67,7 @@ body{
 }
 body p{
     text-align: left;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     height: 100%;
 }
@@ -79,47 +79,16 @@ strong{
     color: var(--cor-destaque)
 }
 #sobre-infancia{
-    background-image: url(fotos-arnold/arnold-infancia.png);
-    background-size: cover;
-    background-position: center top;
     display: flex;
-}
-@media (min-width: 1200px){
-    #sobre-infancia{
-        width: 30%;
-        height: auto;
-        margin: 0 auto;
-        background-position: center top;
-        background-color: #F5F5F5;
-    }
-}
-@media (max-width: 1200px){
-    #sobre-infancia{
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-    }
 }
 #fisioculturimo{
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 100%;
 }
 #hollywood{
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 100%;
 }
 #governo{
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 100%;
 }
 footer p{
     background-color: #1B263B;
