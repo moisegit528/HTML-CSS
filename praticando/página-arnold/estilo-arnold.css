@@ -19,16 +19,16 @@
 header{
     background-color: #1B263B;
 }
-header section.cabeca{
+.cabeca{
     display: flex;
     width: 100%;
     height: 100%;
 }
-header section div.atual img{
+.atual img{
     width: 100%;
     height: 100%;
 }
-header section p{
+header p{
     font-family: var(--font-padrao);
     color: var(--cor-texto);
     font-size: 1.5rem;
@@ -61,80 +61,63 @@ header img{
 }
 body{
     background-color: var(--cor-fundo);
-}
-main p{
     font-family: var(--font-padrao);
     color: var(--cor-texto);
     font-size: 1.5rem;
 }
+body p{
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+body img{
+    width: 100%;
+    height: auto;
+}
 strong{
     color: var(--cor-destaque)
 }
-section#sobre-infancia{
+#sobre-infancia{
+    background-image: url(fotos-arnold/arnold-infancia.png);
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+}
+@media (min-width: 1200px){
+    #sobre-infancia{
+        width: 30%;
+        height: auto;
+        margin: 0 auto;
+        background-position: center top;
+        background-color: #F5F5F5;
+    }
+}
+@media (max-width: 1200px){
+    #sobre-infancia{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+#fisioculturimo{
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
     height: 100%;
 }
-section div.infancia img{
-    width: 100%;
-    height: auto;
-}
-section#sobre-infancia p{
-    text-align: left;
-    padding: 20px;
-    width: 100%;
-    height: 100%;    
-}
-section#fisioculturimo{
+#hollywood{
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
     height: 100%;
 }
-section div.fisio img{
-    width: 100%;
-    height: auto;
-}
-section#fisioculturimo p{
-    text-align: left;
-    padding: 20px;
-    width: 100%;
-    height: 100%;
-}
-section#hollywood{
+#governo{
     display: flex;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 100%;
-    height: 100%;
-}
-section div.holly img{
-    width: 100%;
-    height: auto;
-}
-section#hollywood p{
-    text-align: left;
-    padding: 20px;
-    width: 100%;
-    height: 100%;
-}
-section#governo{
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 100%;
-    height: 100%;
-}
-section div.governador img{
-    width: 100%;
-    height: auto;
-}
-section#governo p{
-    text-align: left;
-    padding: 20px;
     width: 100%;
     height: 100%;
 }
@@ -143,8 +126,9 @@ footer p{
     color: var(--cor-texto);
     text-transform: uppercase;
     text-align: center;
-    margin-top: 20px;
-    padding: 10px;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
 }
 footer p a{
     text-decoration: none;
@@ -152,6 +136,5 @@ footer p a{
 }
 footer p a:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
-
-
