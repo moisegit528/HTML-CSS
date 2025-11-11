@@ -10,6 +10,38 @@
     --fonte-texto: 'Open Sans', 'sans-serif';
     font-size: 1rem;
 }
+body a{
+    text-decoration: none;
+    color: #E9C46A;
+}
+body a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+body h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: var(--font-titulo);
+    color: #F1FAEE;
+}
+body p{
+    display: inline-block;
+    font-family: var(--fonte-texto);
+    font-size: 1.2rem;
+    color: #F1FAEE;
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.253);
+    text-shadow: 1px 1px 0px black;
+}
+body strong{
+    font-family: var(--font-titulo);
+    font-size: 1.5rem;
+    color: #E9C46A;
+}
 header{
     background: linear-gradient(to bottom, #005f73, #E9C46A);
 }
@@ -29,82 +61,22 @@ header h2{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-header div.icones{
+.icones{
     display: flex;
     justify-content: space-between;
 }
-header div.icones img{
-    padding: 10px;
-}
-
-section#Ubatuba{
+#Ubatuba{
     background-image: url(Ubatuba/Ubatuba4.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     text-align: center;
 }
-section#Ubatuba h1{
-    text-align: center;
-    font-size: 3rem;
-    padding: 15px;
-    text-transform: uppercase;
-    font-family: var(--font-titulo);
-    color: #E9C46A;
-}
-section#Ubatuba p{
-    display: inline-block;
-    font-family: var(--fonte-texto);
-    color: #F1FAEE;
-    font-size: 1.2rem;
-    text-align: justify;
-    padding: 5px;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.253);
-    text-shadow: 1px 1px 0px black;
-}
-section#Ubatuba strong{
-    font-family: var(--font-titulo);
-    font-size: 1.5rem;
-    color: #E9C46A;
-}
-section#Ubatuba a{
-    text-decoration: none;
-    color: black;
-}
-section#Ubatuba a:hover{
-    text-decoration: underline;
-    font-size: 1.3rem;
-}
-
-section#Cristo{
+#Cristo{
     background-image: url(Cristo-Redentor/imagem-background/Cristo.png);
     background-size: cover;
     background-attachment: fixed;
     background-position: top right;
     text-align: center;
 }
-section#Cristo h1{
-    font-family: var(--font-titulo);
-    font-size: 3rem;
-    color: #E9C46A;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 15px;
-}
-section#Cristo strong{
-    font-family: var(--font-titulo);
-    font-size: 1.5rem;
-    color: #E9C46A;
-}
-section#Cristo p{
-    display: inline-block;
-    font-family: var(--fonte-texto);
-    font-size: 1.2rem;
-    color: #F1FAEE;
-    padding: 5px;
-    margin: 10px;
-    text-align: justify;
-    background-color: rgba(0, 0, 0, 0.253);
-    text-shadow: 1px 1px 0px black;
-}
+
