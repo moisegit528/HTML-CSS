@@ -11,6 +11,14 @@
     --font-titulos: "Bebas Neue", sans-serif;
     --font-padrao: "Open Sans", sans-serif;
 }
+
+body header h1{
+    background-color: var(--cor-fundo);
+    font-family: var(--font-titulos);
+    color: var(--cor-destaque);
+    text-align: center;
+    margin: 20px;
+}
 body{
     background-color: var(--cor-fundo);
 }
@@ -18,114 +26,31 @@ body a{
     text-decoration: none;
     color: var(--cor-links);
 }
-header h1{
-    background-color: var(--cor-fundo);
-    font-family: var(--font-titulos);
-    color: var(--cor-destaque);
-    text-align: center;
-    margin: 20px;
-}
-div.Mercenarios{
-    background-color: var(--cor-fundo);
-}
-div.Mercenarios h1{
-    font-family: var(--font-titulos);
-    color: var(--cor-links);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-div.Mercenarios img{
-    width: 100%;
-    height: auto;    
-}
-div.Mercenarios p{
-    background-color: var(--cor-fundo);
-    font-family: var(--font-padrao);
-    font-size: 1.5rem;
-    color: var(--cor-texto);
-    padding: 20px;
-    text-align: justify;
-}
-div.Fuga h1{
-    font-family: var(--font-titulos);
-    color: var(--cor-links);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-div.Fuga img{
-    width: 100%;
-    height: auto;
-}
-div.Fuga p{
-    font-family: var(--font-padrao);
-    color: var(--cor-texto);
-    font-size: 1.5rem;
-    padding: 20px;
-    text-align: justify;
-}
-div.Tira h1{
-    font-family: var(--font-titulos);
-    color: var(--cor-links);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px
-}
-div.Tira img{
-    width: 100%;
-    height: auto;
-}
-div.Tira p{
-    font-family: var(--font-padrao);
-    color: var(--cor-texto);
-    font-size: 1.5rem;
-    padding: 20px;
-    text-align: justify;
-}
-div.Gemeos h1{
-    font-family: var(--font-titulos);
-    color: var(--cor-links);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-div.Gemeos img{
-    width: 100%;
-    height: auto;
-}
-div.Gemeos p{
-    font-family: var(--font-padrao);
-    color: var(--cor-texto);
-    font-size: 1.5rem;
-    padding: 20px;
-    text-align: justify;
-}
-div.Exterminador h1{
-    font-family: var(--font-titulos);
-    color: var(--cor-links);
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-div.Exterminador img{
-    width: 100%;
-    height: auto;
-}
-div.Exterminador p{
-    font-family: var(--font-padrao);
-    color: var(--cor-texto);
-    font-size: 1.5rem;
-    padding: 20px;
-    text-align: justify;
-}
 body a:hover{
     text-decoration: underline; 
-} 
-footer div.voltar{
-    text-align: center;
-    padding: 20px;
 }
-footer div.voltar img:hover{
+body h1{
+    font-family: var(--font-titulos);
+    color: var(--cor-links);
+    text-align: center;
+    padding-top: 20px;
+}
+body p{
+    font-family: var(--font-padrao);
+    color: var(--cor-texto);
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: justify;
+}
+body img{
+    width: 100%;
+    height: auto;
+}
+.voltar{
+    display: inline-block;
+    width: 100%;
+    max-width: 100px;
+}
+.voltar img:hover{
     padding: 5px;
 }
