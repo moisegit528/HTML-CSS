@@ -21,8 +21,7 @@ header{
 }
 .cabeca{
     display: flex;
-    width: 100%;
-    height: 100%;
+    flex-wrap: wrap;
 }
 .atual img{
     width: 100%;
@@ -55,9 +54,10 @@ header nav a:hover{
     font-size: 2.5rem;
     color: var(--cor-destaque);
 }
-header img{
+#topo img{
     width: 100%;
-    height: auto;
+    max-width: 1000px;
+
 }
 body{
     background-color: var(--cor-fundo);
@@ -70,25 +70,33 @@ body p{
     padding: 10px;
     width: 100%;
     height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 body img{
     width: 100%;
-    height: auto;
+    max-width: 1000px;
 }
 strong{
     color: var(--cor-destaque)
 }
 #sobre-infancia{
     display: flex;
+    flex-wrap: wrap;
 }
 #fisioculturimo{
     display: flex;
+    flex-wrap: wrap;
 }
 #hollywood{
     display: flex;
+    flex-wrap: wrap;
 }
 #governo{
     display: flex;
+    flex-wrap: wrap;
 }
 footer p{
     background-color: #1B263B;
