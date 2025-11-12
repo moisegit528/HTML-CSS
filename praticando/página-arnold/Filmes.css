@@ -4,7 +4,7 @@
     padding: 0px;
 }
 :root {
-    --cor-fundo: #1A1A1A; /* Fundo escuro (grafite) */
+    --cor-fundo: #1a1a1a; /* Fundo escuro (grafite) */
     --cor-texto: #F5F5F5; /* Texto claro */
     --cor-destaque: #FF0000; /* Vermelho para títulos ou elementos importantes */
     --cor-links: #FFD700; /* Dourado para links e botões */
@@ -44,12 +44,18 @@ body p{
 }
 body img{
     width: 100%;
-    height: auto;
+    max-width: 500px;
+    height: auto;   
+}
+.container{
+    display: flex;
+    justify-content: center;
 }
 .voltar{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    max-width: 100px;
+    height: auto;
 }
 .voltar img:hover{
     padding: 5px;
