@@ -30,9 +30,12 @@
 
     tbody {
         border: 1px solid black;
+        text-align: center;
     }
 
     tbody th {
+        background-color: gray;
+        color: white;
         border: 1px solid black;
         padding: 10px;
     }
@@ -40,6 +43,17 @@
     tbody td {
         border: 1px solid black;
         padding: 10px;
+    }
+    .di{
+        font-size: 1.2em;
+        font-weight: bold;
+        text-align: center;
+    }
+    .dife{
+        text-align: left;
+    }
+    .tddiferente{
+        text-align: left;
     }
 </style>
 
@@ -57,63 +71,63 @@
         <tbody>
 
             <tr>
-                <th rowspan="5">Exatas</th>
+                <td class="di" rowspan="5">Exatas</td>
             </tr>
 
             <tr>
-                <td>Matemática</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-
-            <tr>
-                <td>Física</td>
+                <td class="tddiferente">Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <td>Química</td>
+                <td class="tddiferente">Física</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <td>Biologia</td>
+                <td class="tddiferente">Química</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                 <th colspan="4">Média de Exatas</th>
-                 <td>0.0</td>
-            </tr>
-
-            <tr>
-                <th rowspan="3">Humanas</th>
-            </tr>
-
-            <tr>
-                <td>História</td>
+                <td class="tddiferente">Biologia</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <td>Geografia</td>
+                 <th class="dife" colspan="4">Média de Exatas</th>
+                 <th>0.0</th>
+            </tr>
+
+            <tr>
+                <td class="di" rowspan="3">Humanas</td>
+            </tr>
+
+            <tr>
+                <td class="tddiferente">História</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
 
             <tr>
-                <th colspan="4">Média de Humanas</th>
+                <td class="tddiferente">Geografia</td>
                 <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <th class="dife" colspan="4">Média de Humanas</th>
+                <th>0.0</th>
             </tr>
 
         </tbody>
