@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form method="post">
+        <p>
+            <label for="num">Número: </label>
+            <input type="range" name="num" id="num" min="0" max="5" value="5" oninput="inum.innerHTML = Number(num.value)">
+            <output id="inum">5</output>
+        </p>
+    </form>
+
+</body>
+
+</html>
