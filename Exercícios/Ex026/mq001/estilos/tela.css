@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* Estilos para tela */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body > h1{
+    color: blue;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+}
+body strong{
+    color: rgb(204, 204, 10);
+}
+header h1{
+    text-align: center;
+    padding: 10px;
+}
+menu ul{
+    background-color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+menu li{
+    padding: 10px;
+    margin: auto;
+    display: inline-block;
+    color: white;
+}
+article h2{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
+article p{
+    text-align: justify;
+    text-indent: 10px;
+}
