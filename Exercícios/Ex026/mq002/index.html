@@ -7,6 +7,32 @@
     <link rel="stylesheet" href="estilo/padrao.css" media="all">
     <link rel="stylesheet" href="estilo/retrato.css" media="screen and (orientation: portrait)">
     <link rel="stylesheet" href="estilo/paisagem.css" media="screen and (orientation: landscape)">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 0px #233dff93;
+    padding: 10px;
+}
+@media screen and (orientation: portrait) {
+    body{
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-size: center bottom;
+}
+}
+    </style>
 </head>
 <body>
     <h1>Mude a orientação do seu dispositivo </h1>
