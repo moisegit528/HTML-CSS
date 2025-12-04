@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="menu.css">
 </head>
 
-<body>
+<body onresize="mudoutamanho() ">
     <header>
         <h1>Meu Site</h1>
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()"> menu</span>
@@ -44,9 +44,17 @@
                 provident esse tempora aliquid officia aut vitae!Lorem ipsum dolor sit amet consectetur adipisipsam
                 deleniti dignissimos quod distinctio modi magnam nam dolor quas, tenetur nulla eaque provident esse
                 tempora aliquid officia aut vitae!</p>
+                
         </article>
     </main>
     <script>
+        function mudoutamanho(){
+            if (window.innerWidth >= 768){
+                opcoes.style.display = 'block'
+            }else{
+                opcoes.style.display = 'none'
+            }
+            }
         function clickMenu() {
             if (opcoes.style.display == 'block'){
                 opcoes.style.display = 'none'

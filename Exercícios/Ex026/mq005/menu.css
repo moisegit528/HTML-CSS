@@ -41,8 +41,7 @@ menu a{
     text-decoration: none;
     background-color: rgb(59, 59, 59);
     color: white;
-    text-align: center;
-    border-top: 2px solid rgb(161, 160, 160);    
+    text-align: center;    
 }
 menu a:hover{
     background-color: gray;
@@ -65,4 +64,29 @@ article p{
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
+}
+@media screen and (min-width: 768px){
+    #burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    ul{
+        text-align: center;
+        background-color: rgba(0, 0, 255, 0.664);
+    }
+    menu li{
+        display: inline-block;
+        padding: 10px;
+    }
+    menu a{
+        border-radius: 5px;
+    }
+    main{
+        max-width: 768px;
+    }
+    article p{
+        text-align: justify;
+    }
 }
