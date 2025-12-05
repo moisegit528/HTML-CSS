@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="estilos/tela-de-login.css">
+</head>
+
+<body>
+    <section id="login">
+        <div class="formulario">
+            <h1>LOGIN</h1>
+            <form action="login.php" method="post">
+                <label for="usuario"></label>
+                <input type="text" name="usuario" id="usuario" required placeholder="Usuário ou Email">
+                <label for="senha"></label>
+                <input type="password" name="senha" id="senha" required minlength="8" placeholder="Senha">
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
