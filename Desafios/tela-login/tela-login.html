@@ -13,11 +13,15 @@
         <div class="formulario">
             <h1>LOGIN</h1>
             <form action="login.php" method="post">
-                <label for="usuario"></label>
-                <input type="text" name="usuario" id="usuario" required placeholder="Usuário ou Email">
-                <label for="senha"></label>
-                <input type="password" name="senha" id="senha" required minlength="8" placeholder="Senha">
-                <input type="submit" value="Enviar">
+                <div class="usuario">
+                    <img src="icons/usuário.png" alt="Usuário"></img>
+                    <input type="text" name="usuario" id="usuario" required minlength="8" placeholder=" Usuário ou Email">
+                </div>
+                <div class="senha">
+                    <label for="senha"> <img src="icons/senha.png" alt="Senha"></label>
+                    <input type="password" name="senha" id="senha" required minlength="8" placeholder=" Senha">
+                </div>
+                <div class="enviar"><input type="submit" value="Enviar"></div>
             </form>
         </div>
     </section>

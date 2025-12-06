@@ -14,16 +14,15 @@ a definir...
 body{
     background-color: black;
     height: 100vh;
-    background-image: url(../imagens/foto1.jpg);
+    background-image: url(../imagens/foto4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 section#login{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
-    background-color: white;
-    max-width: 150px;
-    max-height: 150px;
+    background: linear-gradient(to bottom, black, white);
+    min-width: 50%;
     padding: 30px;
     border-radius: 20px;
     position: absolute;
@@ -32,7 +31,45 @@ section#login{
     transform: translate(-50%, -50%);
 }
 .formulario h1{
-    color: darkblue;
+    color: white;
     text-align: center;
     padding-bottom: 10px;
+}
+
+div.usuario{
+    display: flex;
+    margin-bottom: 10px;
+}
+div.senha{
+    display: flex;
+    margin-top: 10px;
+}
+div.enviar{
+    text-align: center;
+    padding-top: 20px;
+}
+div.enviar input{
+    padding: 5px;
+    color: white;
+    background-color: black;
+}
+
+@media screen and (min-width: 768px){
+    div.formulario{
+    position: relative;
+    min-height: 100%;
+    }
+    div.usuario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    div.senha{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+    }
 }
