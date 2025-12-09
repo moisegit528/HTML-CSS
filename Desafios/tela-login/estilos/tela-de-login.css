@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Paleta de cores
-a definir...
+    #00ff88
+    #000000
+    #ffffff
 */
 
 *{
@@ -14,7 +16,7 @@ a definir...
 body{
     background-color: black;
     height: 100vh;
-    background-image: url(../imagens/foto4.jpg);
+    background-image: url(../imagens/foto2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -31,26 +33,46 @@ section#usuario{
     transform: translate(-50%, -50%);
 }
 .formulario h1{
-    color: white;
+    color: #00ff88;
     text-align: center;
     padding-bottom: 10px;
 }
+.formulario h1:hover{
+    color: #ffffff;
+}
 
 div.login{
-    display: flex;
+    text-align: center;
     margin-bottom: 10px;
 }
+.login input[type=text]:hover{
+    cursor: pointer;
+}
 div.senha{
-    display: flex;
+    text-align: center;
     margin-top: 10px;
+}
+.senha input[type=password]:hover{
+    cursor: pointer;
 }
 div.entrar{
     text-align: center;
     margin-top: 10px;
 }
-span{
-    margin-right: 5px;
+div.entrar input[type=submit]{
+    background-color: #00ff88;
+    margin: 5px 0px;
+    padding: 5px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
 }
+div.entrar input[type=submit]:hover{
+    color: #000000;
+    background-color: white;
+    cursor: pointer;
+}
+
 .formulario a{
     text-decoration: none;
     text-align: center;
@@ -65,17 +87,10 @@ span{
     transition: 0.5s;
 }
 
-
-
-
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
     div.formulario{
-    min-height: 100%;
-    }
-    div.login{
-    
-    }
-    div.senha{
-   
+        width: 100%;
+        height: 200px;
     }
 }
+
