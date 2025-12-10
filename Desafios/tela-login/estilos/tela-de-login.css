@@ -24,7 +24,7 @@ body{
 section#usuario{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.527);
     background: linear-gradient(to bottom, black, white);
-    min-width: 50%;
+    width: 200px;
     padding: 30px;
     border-radius: 20px;
     position: absolute;
@@ -40,39 +40,40 @@ section#usuario{
 .formulario h1:hover{
     color: #ffffff;
 }
-
-div.login{
+div.campo{
     text-align: center;
     margin-bottom: 10px;
 }
-.login input[type=text]:hover{
+div.campo input{
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 4px;
+    transform: translateY(-8px);
+}
+.campo input:hover{
+    background-color: #ffffff;
+    border: 2px solid #00ff88;
     cursor: pointer;
 }
-div.senha{
-    text-align: center;
-    margin-top: 10px;
+div.campo span{
+    background-color: #00ff88;
+    border-radius: 8px;
 }
-.senha input[type=password]:hover{
-    cursor: pointer;
-}
-div.entrar{
-    text-align: center;
-    margin-top: 10px;
-}
-div.entrar input[type=submit]{
+div.campo input[type=submit]{
     background-color: #00ff88;
     margin: 5px 0px;
     padding: 5px;
     color: white;
     border: none;
     text-transform: uppercase;
+    border-radius: 8px;
 }
-div.entrar input[type=submit]:hover{
+div.campo input[type=submit]:hover{
     color: #000000;
     background-color: white;
     cursor: pointer;
 }
-
 .formulario a{
     text-decoration: none;
     text-align: center;
@@ -88,9 +89,8 @@ div.entrar input[type=submit]:hover{
 }
 
 @media screen and (min-width: 769px){
-    div.formulario{
-        width: 100%;
-        height: 200px;
+    section#usuario{
+        width: 300px;
     }
 }
 
