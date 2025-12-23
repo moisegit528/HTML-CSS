@@ -73,4 +73,25 @@ main section#historia{
 }
 main section div.img{
     background-image: url(imagens/pessoas-conversando.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 50%;
+    min-height: 50%;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 30px;
+}
+main section div.sobre{
+    width: 100px;
+    height: 100px;
+}
+main section div.sobre h1{
+    font-size: 1em;
+    text-align: justify;
+    margin: 10px;
+}
+main section div.sobre p{
+    font-size: 1em;
+    text-align: center;
 }
