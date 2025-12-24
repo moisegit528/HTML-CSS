@@ -3,61 +3,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: Arial, sans-serif;
 }
+
 /* Paleta de cores   
     header - footer #5A2EA6
     botões #e60026
 */
-header{
+header {
     background-color: rgb(90, 46, 166);
     color: white;
     font-weight: bold;
+    height: 350px;
 }
-header menu{
+
+header menu {
     display: flex;
     justify-content: space-between;
     height: 50px;
     width: 100%;
 }
-header menu h1{
+
+header menu h1 {
     font-family: "Fredoka", sans-serif;
     font-size: 2rem;
     display: block;
     margin: auto;
 }
-header menu a{
+
+header menu a {
     font-family: "Baloo 2", sans-serif;
     text-decoration: none;
     color: white;
     display: block;
     margin: auto;
 }
-header section{
+
+header section {
     display: flex;
     justify-content: space-between;
     height: 210px;
 }
-header div.frase{
+
+header div.frase {
     width: 100%;
     height: 100%;
     margin-left: 20px;
     margin-top: 40px;
 }
-header div.frase h1{
+
+header div.frase h1 {
     font-family: "Baloo 2", sans-serif;
 }
-header div.imagem{
+
+header div.imagem {
     width: 100%;
     height: 100%;
     background-image: url(imagens/cookies-e-chocolates\ .png);
     background-size: cover;
     border-radius: 10px;
 }
-header button{
+
+header button {
     font-family: "Baloo 2", sans-serif;
     background-color: #E60026;
     color: white;
@@ -67,31 +77,91 @@ header button{
     border-radius: 5px;
     border: none;
 }
-main section#historia{
+
+main section#historia {
     display: flex;
     justify-content: space-between;
+    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 100%;
 }
-main section div.img{
+
+main section div.img {
     background-image: url(imagens/pessoas-conversando.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-width: 50%;
-    min-height: 50%;
+    width: 100%;
+    min-height: 100%;
     border-radius: 10px;
-    margin-right: 5px;
-    margin-top: 30px;
+    margin-left: 10px;
 }
-main section div.sobre{
-    width: 100px;
-    height: 100px;
+
+main section div.sobre {
+    width: 100%;
+    height: 100%;
 }
-main section div.sobre h1{
-    font-size: 1em;
-    text-align: justify;
+
+main section div.sobre h2 {
+    margin-bottom: 10px;
+}
+
+main section.produtos {
+    display: flex;
+    justify-content: space-between;
+}
+
+main h1.produ {
+    margin-left: 10px;
+}
+
+main section.produtos article {
     margin: 10px;
 }
-main section div.sobre p{
-    font-size: 1em;
+
+main div.biscoito {
+    background-image: url(imagens/biscoito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+main div.balas {
+    background-image: url(imagens/balas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+main div.chocolate {
+    background-image: url(imagens/chocolates.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+main div.texto {
+    width: 100%;
+    height: 100%;
+    border: 0.5px solid rgba(0, 0, 0, 0.030);
+}
+
+main div.texto h3 {
     text-align: center;
+    padding: 10px;
+}
+
+main div.texto p {
+    text-align: center;
+    padding-bottom: 10px;
 }
