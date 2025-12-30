@@ -41,7 +41,8 @@ header menu a {
     display: block;
     margin: auto;
 }
-header menu a:hover{
+
+header menu a:hover {
     text-decoration: underline;
     transition: 0.5s;
 }
@@ -71,7 +72,7 @@ header div.imagem {
     border-radius: 10px;
 }
 
-header button{
+header button {
     font-family: "Baloo 2", sans-serif;
     background-color: #E60026;
     color: white;
@@ -81,14 +82,17 @@ header button{
     border-radius: 5px;
     border: none;
 }
-header button a{
+
+header button a {
     text-decoration: none;
     color: white;
 }
-header button a:hover{
+
+header button a:hover {
     color: rgb(90, 46, 166);
     transition: 0.5s;
 }
+
 main section#historia {
     display: flex;
     justify-content: space-between;
@@ -118,7 +122,8 @@ main section div.sobre h2 {
     font-family: "Baloo 2", sans-serif;
     margin-bottom: 10px;
 }
-main section div.sobre p{
+
+main section div.sobre p {
     margin-bottom: 20px;
 }
 
@@ -127,7 +132,8 @@ main section.produtos {
     justify-content: space-between;
     margin-bottom: 200px;
 }
-main section.produtos article button{
+
+main section.produtos article button {
     margin-top: 10px;
 }
 
@@ -186,11 +192,13 @@ main div.texto p {
     text-align: center;
     padding-bottom: 10px;
 }
-main section.susten{
+
+main section.susten {
     margin-top: 150px;
     margin-left: 10px;
 }
-main section.susten p{
+
+main section.susten p {
     color: darkgreen;
     text-align: center;
     text-transform: uppercase;
@@ -199,21 +207,25 @@ main section.susten p{
     margin: 20px;
 
 }
-footer{
+
+footer {
     background-color: rgb(90, 46, 166);
     color: white;
     font-family: "Baloo 2", sans-serif;
     text-align: center;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     cursor: pointer;
     color: #e60026;
 }
-footer a:hover{
+
+footer a:hover {
     text-decoration: underline;
 }
-.botao{
+
+.botao {
     background-color: rgb(90, 46, 166);
     display: block;
     margin: auto;
@@ -222,12 +234,18 @@ footer a:hover{
     border-radius: 10px;
     cursor: pointer;
 }
-.botao a{
+
+.botao a {
     text-decoration: none;
     color: white;
     padding: 10px;
 }
-.botao a:hover{
+
+.botao a:hover {
     color: #E60026;
     transition: 0.5s;
+}
+
+@media screen {
+    
 }
