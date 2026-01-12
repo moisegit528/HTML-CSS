@@ -9,6 +9,13 @@
     font-family: Arial, sans-serif;
 }
 
+/* Tipical Device Breakpoints
+Smaller smartphones: de 0 a 480px
+Tablet e Larger Smartphones: de 481px até 768px
+Laptops, larger tablets in landscape, and small desktops: de 769 até 1279px 
+Larger desktops and monitors: acima de 1280px
+*/
+
 /* Paleta de cores   
     header - footer rgb(90, 46, 166)
     botões #e60026
@@ -56,8 +63,7 @@ header section {
 header div.frase {
     width: 100%;
     height: 100%;
-    margin-left: 20px;
-    margin-top: 40px;
+    margin: 40px;
 }
 
 header div.frase h1 {
@@ -77,8 +83,7 @@ header button {
     background-color: #E60026;
     color: white;
     padding: 10px;
-    margin-left: 20px;
-    margin-bottom: 15px;
+    margin: 40px;
     border-radius: 5px;
     border: none;
 }
@@ -246,6 +251,46 @@ footer a:hover {
     transition: 0.5s;
 }
 
-@media screen {
-    
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header menu h1 {
+        font-size: 3rem;
+    }
+
+    header menu a {
+        font-size: 1.5rem;
+    }
+
+    header div.frase {
+        width: 100%;
+        height: 100%;
+        margin: 40px;
+        text-align: center;
+        
+    }
+
+    header div.imagem {
+        width: 50%;
+        height: 110%;
+        background-image: url(imagens/cookies-e-chocolates\ .png);
+        background-size: cover;
+        background-position: center;
+        margin: 50px;
+        border-radius: 10px;
+    }
+
+    header button {
+        display: block;
+        margin-left: 20%;
+    }
+
+    main section div.img {
+    background-image: url(imagens/pessoas-conversando.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    }
+
 }
