@@ -280,15 +280,32 @@ footer a:hover {
         margin-top: 0px;
     }
 
+    main section#historia{
+        background-image: url(imagens/Sobre-mondelez.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 250px;
+        width: 95%;
+        border-radius: 10px;
+    }
+
+    main section div.sobre{
+        height: 100px;
+        width: 100%;
+
+        background-color: black;
+        text-align: center;
+        margin-top: 50px;
+        color: white;
+    }
+
     main section div.img {
     background-image: url(imagens/pessoas-conversando.jpg);
     background-size: cover;
-    background-position: center;
-    min-height: 100%;
+    background-position: top center;
+    height: 250px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
     }
-
-    
 
 }
