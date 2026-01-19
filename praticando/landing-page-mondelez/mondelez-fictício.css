@@ -281,7 +281,7 @@ footer a:hover {
     }
 
     main section#historia{
-        background-image: url(imagens/Sobre-mondelez.png);
+        background-image: url(imagens/mondiz.png);
         background-size: contain;
         background-repeat: no-repeat;
         height: 250px;
@@ -291,13 +291,14 @@ footer a:hover {
 
     main section div.sobre{
         height: 100px;
-        width: 100%;
+        width: 60%;
         margin-left: 10px;
 
         background-color: rgba(0, 0, 0, 0.61);
         border-radius: 10px;
         text-align: center;
         margin-top: 50px;
+        padding-bottom: 3px;
         color: white;
     }
 
