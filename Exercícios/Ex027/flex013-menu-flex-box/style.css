@@ -26,12 +26,12 @@ header{
 }
 
 header h1{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 200px; /*Não vai crescer e não vai diminuir (fica fixo em 200px). Usado geralmente em "logos"*/
 }
 
 header nav{
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
 
     display: flex;
     flex-flow: row wrap; /*Fez a quebra dos itens "opções"*/
@@ -61,4 +61,3 @@ main{
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.363);
 }
-

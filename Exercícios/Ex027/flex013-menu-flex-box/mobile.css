@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+header, header nav{
+    flex-flow: column nowrap; /*Eixo principal ficou vertical em "PÉ" e sem quebrar*/
+}
+
+header h1{
+    flex-basis: 50px; /*Fez o menu "meu site ou logo" ficar fixo no tamanho configurado"*/
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.445);
+}
+
+header nav a{
+    width: 90vw; /*Fez o menu "opções" ficar no tamanho maior um em baixo do outro*/
+}
