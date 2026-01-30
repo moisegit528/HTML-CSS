@@ -7,16 +7,24 @@
     <style>
         div.container{
             border: 3px solid blue;
-            height: 250px;
 
             display: grid;
-            grid-template: repeat(3, auto) / repeat(3, auto);
-            
-            gap: 10px;
-            align-items: start;
+            /*grid-template-columns: auto auto auto;
+            grid-template-rows: 100px 100px 100px;*/
+            /*grid-template: 100px 100px 100px / auto auto auto;*//*shorthand*/
+            grid-template: repeat(3, 100px) / repeat(3, auto); /*shorthand com a função repeat*/
+
+            /*grid-auto-rows: 100px;    
+            grid-auto-columns: auto;*/
+
+            /*align-items: stretch;
             justify-items: center;
-            align-content: space-between;
-            justify-content: end;
+            align-content: start;
+            justify-content: end;*/
+            place-items: stretch center; /*shorthand*/
+            place-content: start end; /*shorthand*/
+
+            
         }
 
         div.item{
@@ -34,6 +42,8 @@
         <div class="item">E</div>
         <div class="item">F</div>
         <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
     </div>
 </body>
 </html>
