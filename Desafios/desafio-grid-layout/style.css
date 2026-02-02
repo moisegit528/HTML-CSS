@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    background-color: lightgray;
+
+    display: grid;
+    grid
+    height: 100vh;
+    
+}
+
+.topo{
+    background-color: red;
+    grid-area: 1 / 1 / 2 / 5;
+}
