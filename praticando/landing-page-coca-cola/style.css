@@ -3,51 +3,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-:root{
+:root {
     --fundo-principal: #e50914;
     --texto: #ffffff;
     --texto-inverso: #0d0d0d;
-    --destaque: #ffcc00; /*para botões*/
+    --destaque: #ffcc00;
+    /*para botões*/
     --destaque-inverso: #b38f00;
     --fundo-card: #f5f5f5;
-    --fonte: "Montserrat", sans-serif; /*Bold para títulos e padrão para textos*/
+    --fonte-texto: "Montserrat", sans-serif;
+    /*Bold para títulos e padrão para textos*/
 }
 
-header nav#menu{
+body {
+    font-family: var(--fonte-texto);
+}
+
+header nav#menu {
     background-color: var(--fundo-principal);
+    height: 100px;
+    width: 100vw;
 
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 15vh 85vh;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 1fr;
 }
 
-nav#menu div.logo{
+nav#menu div.logo {
     grid-area: 1 / 1 / 2 / 2;
-    align-content: center;
 }
 
-nav#menu div.logo img{
-    display: block;
-    margin: auto;
-
-    max-width: 100px;
-    max-height: 100px;
+nav#menu div.logo img {
+    max-width: 150px;
+    max-height: 100%;
 }
 
-nav#menu div#opcoes{
+nav#menu div#opcoes {
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
     grid-area: 1 / 2 / 2 / 3;
 }
 
-div#opcoes{
-    font-size: 1.5rem;
+nav#menu div#opcoes div {
+    margin: px;
 
-    display: flex;
-    justify-content: space-between;
+    grid-area: 1 / 2 / 2 / 3;
 }
 
 /*
@@ -67,6 +77,22 @@ div#opcoes{
 }*/
 
 
-@media screen and (min-width: 100px) and (max-width: 768px) {
-    
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    header nav#menu {
+    height: 100px;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 100px;
+    }
+
+    nav#menu div.logo img {
+    max-width: 100px;
+    height: 100%;
+    }
+
+    header nav#menu div#opcoes{
+        min-width: 100vw;
+    }
 }
