@@ -54,11 +54,28 @@ nav#menu div#opcoes {
     grid-area: 1 / 2 / 2 / 3;
 }
 
-nav#menu div#opcoes div {
-    margin: px;
-
-    grid-area: 1 / 2 / 2 / 3;
+div#opcoes div:hover{
+    transition: 0.5s;
+    color: var(--texto);
+    cursor: pointer;
 }
+
+main section#topo{
+    background-color: var(--fundo-principal);
+
+    height: 100vh;
+    width: 100vw;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+section#topo div.imagem img{
+    height: 100%;
+    width: 100%;
+}
+
 
 /*
 
@@ -76,23 +93,31 @@ nav#menu div#opcoes div {
     transition: 0.5s;
 }*/
 
+@media screen and (min-width:0px) and (max-width: 350px) {
+    nav#menu div#opcoes{
+    flex-flow: column nowrap;
+    }
+}    
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
     header nav#menu {
     height: 100px;
     width: 100vw;
 
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 100px 1fr;
     grid-template-rows: 100px;
     }
 
     nav#menu div.logo img {
     max-width: 100px;
     height: 100%;
+    
+    display: block;
+    margin: auto;
     }
 
-    header nav#menu div#opcoes{
-        min-width: 100vw;
+    header nav#menu div#opcoes div{
+        font-size: 1rem;
     }
 }
