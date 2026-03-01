@@ -27,7 +27,7 @@ body {
 header nav#menu {
     background-color: var(--fundo-principal);
     height: 100px;
-    width: 100vw;
+    width: 100%;
 
     display: grid;
     grid-template-columns: 150px 1fr;
@@ -62,18 +62,64 @@ div#opcoes div:hover{
 
 main section#topo{
     background-color: var(--fundo-principal);
+    font-weight: bold;
+    color: var(--texto);
+    text-align: center;
 
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto auto;
+}
+
+section#topo div.imagem{
+    grid-area: 1 / 2 / 3 / 3;
+    margin-bottom: 5px;
 }
 
 section#topo div.imagem img{
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.329);
+
     height: 100%;
     width: 100%;
+}
+
+section#topo div.frase{
+    font-size: 1rem;
+    line-height: 1.5em;
+
+    display: block;
+    margin: auto;
+}
+
+section#topo div.button input{
+    background-color: var(--destaque-inverso);
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.349);
+    font-size: 0.7em;
+}
+
+div.button input:hover{
+    color: var(--texto);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+section#historia{
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+section#historia div.imagem2{
+    grid-area: ;
 }
 
 
