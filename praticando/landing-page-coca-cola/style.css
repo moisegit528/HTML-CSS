@@ -131,24 +131,23 @@ main section#historia{
     height: 100%;
     max-width: 100%;
 
+    gap: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
 }
 
 section#historia div.historia2{
+    border-radius: 15px;
+    justify-items: center;
+    align-content: center;
+
+    background-image: url(coca-cola-bottle.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
     grid-area: 1 / 1 / 3 / 2;
-}
-
-div.historia2 h2{
-    text-align: center;
-}
-
-div.historia2 p{
-    margin-top: 10px;
-    margin-right: 10px;
-    text-align: center;
-    text-align: justify;
 }
 
 section#historia div.imagem2{
