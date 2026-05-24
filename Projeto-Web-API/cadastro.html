@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="box">
+        <h1>Cadastro de Usuário</h1>
+        <form action="">
+
+            <p>Nome Completo:</p>
+            <input type="text" name="nome" id="nome" required minlength="10" placeholder="Digite seu nome Completo">
+
+            <p>E-mail:</p>
+            <input type="email" name="email" id="email" required minlength="10" placeholder="Digite seu e-mail">
+
+            <p>Senha:</p>
+            <input type="password" name="senha" id="senha" autocomplete="current-password" required minlength="8" placeholder="Crie uma senha">
+
+            <p>Data de Nascimento:</p>
+            <input type="date" name="nascimento" required id="nascimento" >
+
+            <p>Telefone (Opcional):</p>
+            <input type="tel" name="telefone" id="telefone" required minlength="11" placeholder="(11) xxxx-xxxx">
+
+            <p>Cidade:</p>
+            <select name="cidade" id="cidade">
+                <option value="BH">Belo Horizonte</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="PA">Porto Alegre</option>
+            </select>
+
+            <p>Estado:</p>
+            <select name="estado" id="estado">
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de janeiro</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </select>
+        </form>
+
+
+
+        <button type="submit">Cadastrar</button>
+    </div>
+</body>
+
+</html>
