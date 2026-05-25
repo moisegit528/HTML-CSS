@@ -12,7 +12,7 @@
 <body>
     <div class="box">
         <h1>Cadastro de Usuário</h1>
-        <form action="">
+        <form action="formCadastro">
 
             <p>Nome Completo:</p>
             <input type="text" name="nome" id="nome" required minlength="10" placeholder="Digite seu nome Completo">
@@ -29,26 +29,10 @@
             <p>Telefone (Opcional):</p>
             <input type="tel" name="telefone" id="telefone" required minlength="11" placeholder="(11) xxxx-xxxx">
 
-            <p>Cidade:</p>
-            <select name="cidade" id="cidade">
-                <option value="BH">Belo Horizonte</option>
-                <option value="SP">São Paulo</option>
-                <option value="RJ">Rio de Janeiro</option>
-                <option value="PA">Porto Alegre</option>
-            </select>
-
-            <p>Estado:</p>
-            <select name="estado" id="estado">
-                <option value="MG">Minas Gerais</option>
-                <option value="SP">São Paulo</option>
-                <option value="RJ">Rio de janeiro</option>
-                <option value="RS">Rio Grande do Sul</option>
-            </select>
+            <button type="submit">Cadastrar</button>
         </form>
 
-
-
-        <button type="submit">Cadastrar</button>
+        
     </div>
 </body>
 

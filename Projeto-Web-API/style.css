@@ -34,7 +34,10 @@ form p {
     margin: 15px 0px 3px 0px;
 }
 
+
 .box button {
+    display: block;
+    margin: auto;
     color: #FFFFFF;
     background-color: #0D47A1;
     width: 200px;
